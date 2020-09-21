@@ -6,8 +6,13 @@ from multiprocessing import Pool, cpu_count
 from rdkit import Chem
 from rdkit.Chem import rdMMPA
 
+''' 
+Annotating codebase for detailed understanding.
+'''
+
 
 def fragment_mol(smi, smi_id=''):
+    
 
     mol = Chem.MolFromSmiles(smi)
 
